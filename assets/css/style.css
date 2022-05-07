@@ -17,7 +17,7 @@ html {
 }
 
 .banner {
-    background-image: url(./assets/images/banner2.png);
+    background-image: url(/assets/images/banner2.png);
     max-width: 1510px;
     max-height: 442px;
     text-align: center;
