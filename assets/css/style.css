@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+
+html {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+
+.container {
+    padding: 50px 170px;
+    margin: 0 auto;
+
+}
+
+.banner {
+    background-image: url(/assets/images/banner2.png);
+    max-width: 1510px;
+    max-height: 442px;
+    text-align: center;
+
+}
+
+.banner-head {
+    max-width: 1170px;
+    max-height: 150px;
+    margin: 0 auto;
+
+    border-bottom: 1px solid #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.banner-head__title {
+
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.2;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.banner-description {
+    max-width: 1169px;
+    max-height: 21px;
+    margin: 0 auto;
+
+    margin-bottom: 73px;
+}
+
+.banner-description__subtitle {
+
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+
+.banner-button {
+    max-width: 370px;
+    max-height: 58px;
+    margin: 0 auto;
+
+    margin-right: 400px;
+    margin-left: 400px;
+    margin-bottom: 50px;
+    
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    outline: none; 
+
+
+}
+
+.banner-button__cta{
+
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.9;
+    color: #FFFFFF;
+    color: inherit;
+    text-align: center;
+}
+
