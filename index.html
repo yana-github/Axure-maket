@@ -6,53 +6,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AXIT maket</title>
-    <script src="./assets/js/script-tab.js"></script>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&family=Raleway:wght@400;500;700&display=swap"
-        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&family=Raleway:wght@400;500;700&display=swap">
 
 </head>
 
+
 <body>
 
-    <!-- Header -->
+
+    <!-- Header  style="width: 52px;
+                                height: 30px;">  style="width: 32px;
+                                height: 30px;"-->
 
     <header class="header">
-        <div class="container">
-            <div class="inner">
-                <div class="header__logo col-6">
-                    <a class="logo__link" href="#"><img class="logo__img" src="./assets/images/AXIT-1.svg"
-                            alt="axit-logo" style="width: 52px;
+        <div class="inner">
+            <div class="header__logo col-6">
+                <a class="logo__link" href="#"><img class="logo__img" src="./assets/images/AXIT-1.svg" alt="axit-logo"
+                        style="width: 52px;
                                 height: 30px;">
-                        <img class="logo__img" src="./assets/images/AXIT-2.svg" alt="axit-logo" style="width: 32px;
+                    <img class="logo__img" src="./assets/images/AXIT-2.svg" alt="axit-logo" style="width: 32px;
                                 height: 30px;"></a>
-                </div>
-                <nav class="header__menu">
-                    <ul class="menu__list col-6">
-                        <li class="menu__list-item">
-                            <a class="menu__link" href="#nav-features">Features</a>
-                        </li>
-                        <li class="menu__list-item">
-                            <a class="menu__link" href="#nav-about">About</a>
-                        </li>
-                        <li class="menu__list-item">
-                            <a class="menu__link" href="#nav-pricing">Pricing</a>
-                        </li>
-                        <li class="menu__list-item">
-                            <a class="menu__link" href="#nav-reviews">Reviews</a>
-                        </li>
-                        <li class="menu__list-item">
-                            <a class="menu__link" href="#nav-contact">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
+            </div>
+            <nav class="header__menu row">
+                <ul class="menu__list col-6">
+                    <li class="menu__list-item">
+                        <a class="menu__link" href="#nav-features">Features</a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a class="menu__link" href="#nav-about">About</a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a class="menu__link" href="#nav-pricing">Pricing</a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a class="menu__link" href="#nav-reviews">Reviews</a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a class="menu__link" href="#nav-contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="themes">
+                <label class="switch">
+                    <input type="checkbox" checked>
+                    <span class="slider round"></span>
+                </label>
             </div>
         </div>
+        <script src="./assets/js/script.js"></script>
+
     </header>
+
+
+
+
 
     <!-- Promo -->
 
@@ -65,10 +78,10 @@
                         <img class="logo__img" src="./assets/images/AXIT-2.svg" alt="axit-logo">
                     </div>
                     <div class="promo__head section-head">
-                        <h1 class="promo__title section-head__title section-head__title_light">MODERN AXURE<br> TEMPLATE
-                            FOR<br> BEAUTIFUL PROTOTYPES</h1>
+                        <h1 class="promo__title section-head__title section-head__title_light">MODERN AXURE TEMPLATE
+                            FOR BEAUTIFUL PROTOTYPES</h1>
                         <p class="promo__subtitle section-head__subtitle section-head__subtitle_light">Lorem ipsum dolor
-                            sit amet, consectetur adipiscing
+                            sit amet,<br> consectetur adipiscing
                             elit</p>
                         <div class="promo__btn">
                             <a class="promo__btn prime-btn" href="#" class="link-download" alt="Download">Download</a>
@@ -76,7 +89,7 @@
                     </div>
                 </div>
                 <div class="promo__form col-5">
-                    <form method="post">
+                    <form class="form">
                         <p class="promo__form-title">Try Your <span>Free</span> Trial Today</p>
                         <input class="promo__form-field" type="text" placeholder="Name">
                         <input class="promo__form-field" type="email" placeholder="Email">
@@ -143,16 +156,17 @@
                         <p class="tabs__head-title" id="nav-features">Tabs with soft transitioning effect.</p>
                         <p class="tabs__head-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit.
-                            Aenean euismod
-                            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+                            Aenean euismod<br>
+                            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra<br>
                             justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
                             penatibus et magnis dis parturient montes.</p>
                         <p class="tabs__head-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit.
-                            Aenean euismod
+                            Aenean euismod<br>
                             bibendum laoreet.</p>
                         <div class="tabs__btn">
-                            <a class="tabs__btn prime-btn contact-btn" href="#" class="link-download" alt="Download">Download</a>
+                            <a class="tabs__btn prime-btn contact-btn" href="#" class="link-download"
+                                alt="Download">Download</a>
                         </div>
                     </div>
                     <div class="tabs__img">
@@ -167,17 +181,18 @@
                         <p class="tabs__head-title">Tabs with soft transitioning effect.</p>
                         <p class="tabs__head-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit.
-                            Aenean euismod
-                            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+                            Aenean euismod<br>
+                            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra<br>
                             justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
                             penatibus et magnis dis parturient montes.</p>
                         <p class="tabs__head-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit.
-                            Aenean euismod
+                            Aenean euismod<br>
                             bibendum laoreet.</p>
-                            <div class="tabs__btn">
-                                <a class="tabs__btn prime-btn contact-btn" href="#" class="link-download" alt="Download">Download</a>
-                            </div>
+                        <div class="tabs__btn">
+                            <a class="tabs__btn prime-btn contact-btn" href="#" class="link-download"
+                                alt="Download">Download</a>
+                        </div>
                     </div>
                     <div class="tabs__img">
                         <img src="./assets/images/tabs/tab-2.jpg" alt="Statue of Liberty">
@@ -191,17 +206,18 @@
                         <p class="tabs__head-title">Tabs with soft transitioning effect.</p>
                         <p class="tabs__head-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit.
-                            Aenean euismod
-                            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+                            Aenean euismod<br>
+                            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra<br>
                             justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
                             penatibus et magnis dis parturient montes.</p>
                         <p class="tabs__head-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit.
-                            Aenean euismod
+                            Aenean euismod<br>
                             bibendum laoreet.</p>
-                            <div class="tabs__btn">
-                                <a class="tabs__btn prime-btn contact-btn" href="#" class="link-download" alt="Download">Download</a>
-                            </div>
+                        <div class="tabs__btn">
+                            <a class="tabs__btn prime-btn contact-btn" href="#" class="link-download"
+                                alt="Download">Download</a>
+                        </div>
                     </div>
                     <div class="tabs__img">
                         <img src="./assets/images/tabs/tab-3.jpg" alt="Statue of Liberty">
@@ -209,232 +225,229 @@
                 </div>
             </div>
         </div>
+        <script src="./assets/js/script-tab.js"></script>
+        <script>
+            // Get the element with id="defaultOpen" and click on it
+            document.getElementById("defaultOpen").click();
+        </script>
     </section>
 
-    <script>
-        // Get the element with id="defaultOpen" and click on it
-        document.getElementById("defaultOpen").click();
-        </script>
 
-            <!-- About -->
 
-            <section class="about">
-                <div class="container">
-                    <div class="section-head">
-                        <div class="section-head__title">
-                            <h2 class="head-title" id="nav-about">Why This Is Awesome</h2>
-                        </div>
-                        <div class="section-head__subtitle">
-                            <p class="head-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </div>
+    <!-- About -->
+
+    <section class="about">
+        <div class="container">
+            <div class="section-head">
+                <div class="section-head__title">
+                    <h2 class="head-title" id="nav-about">Why This Is Awesome</h2>
+                </div>
+                <div class="section-head__subtitle">
+                    <p class="head-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="about__row row">
+                <div class="about__item col-4">
+                    <img src="./assets/images/about/about_icon_1.svg" class="about__card-img" alt="lamp-icon">
+                    <p class="card-title">Thoughtful Design</p>
+                    <p class="card-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing <br>
+                        elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
+                        viverra.
+                    </p>
+                </div>
+                <div class="about__item col-4">
+                    <img src="./assets/images/about/about_icon_2.svg" class="about__card-img" alt="keyboard-icon">
+                    <p class="card-title">Thoughtful Design</p>
+                    <p class="card-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing <br>
+                        elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
+                        viverra.
+                    </p>
+                </div>
+                <div class="about__item col-4">
+                    <img src="./assets/images/about/about_icon_3.svg" class="about__card-img" alt="lightning-icon">
+                    <p class="card-title">Thoughtful Design</p>
+                    <p class="card-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing <br>
+                        elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
+                        viverra.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prices -->
+
+    <section class="prices">
+        <div class="container">
+            <div class="section-head">
+                <div class="section-head__title">
+                    <h2 class="head-title" id="nav-pricing">Pricing Options</h2>
+                </div>
+                <div class="section-head__subtitle">
+                    <p class="head-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="prices__row row">
+                <div class="prices__card col-4">
+                    <ul class="prices__card-list">
+                        <li class="prices__card-item-title">Basic</li>
+                        <li class="prices__card-item-cost"> $10</li>
+                        <li class="prices__card-item-more">Free for life</li>
+                        <li class="prices__card-item-option">1 gb of space</li>
+                        <li class="prices__card-item-option">1 gb of space</li>
+                        <li class="prices__card-item-option">1 gb of space</li>
+                        <li class="prices__card-item-option">1 gb of space</li>
+                        <li class="prices__card-item-option">1 gb of space</li>
+                        <li class="prices__card-item-option">1 gb of space</li>
+                    </ul>
+                </div>
+                <div class="prices__card prices__card_active col-4">
+                    <ul class=" prices__card-list">
+                        <li class="prices__card-item-title">Optima</li>
+                        <li class="prices__card-item-cost"> $20</li>
+                        <li class="prices__card-item-more">Free for life</li>
+                        <li class="prices__card-item-option">1 gb of space</li>
+                        <li class="prices__card-item-option">1 gb of space</li>
+                        <li class="prices__card-item-option">1 gb of space</li>
+                        <li class="prices__card-item-option">1 gb of space</li>
+                        <li class="prices__card-item-option">1 gb of space</li>
+                        <li class="prices__card-item-option">1 gb of space</li>
+                    </ul>
+                </div>
+                <div class="prices__card col-4">
+                    <ul class="prices__card-list">
+                        <li class="prices__card-item-title">Pro</li>
+                        <li class="prices__card-item-cost"> $30</li>
+                        <li class="prices__card-item-more">Free for life</li>
+                        <li class="prices__card-item-option">1 gb of space</li>
+                        <li class="prices__card-item-option">1 gb of space</li>
+                        <li class="prices__card-item-option">1 gb of space</li>
+                        <li class="prices__card-item-option">1 gb of space</li>
+                        <li class="prices__card-item-option">1 gb of space</li>
+                        <li class="prices__card-item-option">1 gb of space</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews -->
+
+    <section class="reviews">
+        <div class="container">
+            <div class="section-head">
+                <div class="section-head__title">
+                    <h2 class="head-title" id="nav-reviews">what our customers are saying</h2>
+                </div>
+                <div class="section-head__subtitle">
+                    <p class="head-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="reviews__row row">
+                <div class="review__item col-4">
+                    <div>
+                        <p class="review__item-descr">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Doloribus accusamus expedita repellat similique odio aspernatur
+                            ex, architecto eaque quo suscipit.
+                        </p>
                     </div>
-                    <div class="about__row row">
-                        <div class="about__item col-4">
-                            <img src="./assets/images/about/about_icon_1.svg" class="about__card-img" alt="lamp-icon">
-                            <p class="card-title">Thoughtful Design</p>
-                            <p class="card-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing <br>
-                                elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
-                                viverra.
-                            </p>
-                        </div>
-                        <div class="about__item col-4">
-                            <img src="./assets/images/about/about_icon_2.svg" class="about__card-img"
-                                alt="keyboard-icon">
-                            <p class="card-title">Thoughtful Design</p>
-                            <p class="card-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing <br>
-                                elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
-                                viverra.
-                            </p>
-                        </div>
-                        <div class="about__item col-4">
-                            <img src="./assets/images/about/about_icon_3.svg" class="about__card-img"
-                                alt="lightning-icon">
-                            <p class="card-title">Thoughtful Design</p>
-                            <p class="card-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing <br>
-                                elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
-                                viverra.
-                            </p>
+
+                    <div class="review__author">
+                        <img class="review__author-photo" src="./assets/images/reviews/author-1.png"
+                            alt="Author-photo" />
+                        <div class="review__author-desc">
+                            <p class="review__author-name">Davis Rhiel Madsen</p>
+                            <p class="review__author-work">Manager</p>
                         </div>
                     </div>
                 </div>
-            </section>
-
-            <!-- Prices -->
-
-            <section class="prices">
-                <div class="container">
-                    <div class="section-head">
-                        <div class="section-head__title">
-                            <h2 class="head-title" id="nav-pricing">Pricing Options</h2>
-                        </div>
-                        <div class="section-head__subtitle">
-                            <p class="head-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </div>
+                <div class="review__item col-4">
+                    <div>
+                        <p class="review__item-descr">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Doloribus accusamus expedita repellat similique odio aspernatur
+                            ex, architecto eaque quo suscipit.
+                        </p>
                     </div>
-                    <div class="prices__row row">
-                        <div class="prices__card col-4">
-                            <ul class="prices__card-list">
-                                <li class="prices__card-item-title">Basic</li>
-                                <li class="prices__card-item-cost"> $10</li>
-                                <li class="prices__card-item-more">Free for life</li>
-                                <li class="prices__card-item-option">1 gb of space</li>
-                                <li class="prices__card-item-option">1 gb of space</li>
-                                <li class="prices__card-item-option">1 gb of space</li>
-                                <li class="prices__card-item-option">1 gb of space</li>
-                                <li class="prices__card-item-option">1 gb of space</li>
-                                <li class="prices__card-item-option">1 gb of space</li>
-                            </ul>
-                        </div>
-                        <div class="prices__card prices__card_active col-4">
-                            <ul class=" prices__card-list">
-                                <li class="prices__card-item-title">Optima</li>
-                                <li class="prices__card-item-cost"> $20</li>
-                                <li class="prices__card-item-more">Free for life</li>
-                                <li class="prices__card-item-option">1 gb of space</li>
-                                <li class="prices__card-item-option">1 gb of space</li>
-                                <li class="prices__card-item-option">1 gb of space</li>
-                                <li class="prices__card-item-option">1 gb of space</li>
-                                <li class="prices__card-item-option">1 gb of space</li>
-                                <li class="prices__card-item-option">1 gb of space</li>
-                            </ul>
-                        </div>
-                        <div class="prices__card col-4">
-                            <ul class="prices__card-list">
-                                <li class="prices__card-item-title">Pro</li>
-                                <li class="prices__card-item-cost"> $30</li>
-                                <li class="prices__card-item-more">Free for life</li>
-                                <li class="prices__card-item-option">1 gb of space</li>
-                                <li class="prices__card-item-option">1 gb of space</li>
-                                <li class="prices__card-item-option">1 gb of space</li>
-                                <li class="prices__card-item-option">1 gb of space</li>
-                                <li class="prices__card-item-option">1 gb of space</li>
-                                <li class="prices__card-item-option">1 gb of space</li>
-                            </ul>
+
+                    <div class="review__author">
+                        <img class="review__author-photo" src="./assets/images/reviews/author-2.png"
+                            alt="Author-photo" />
+                        <div class="review__author-desc">
+                            <p class="review__author-name">Jaydon Rosser</p>
+                            <p class="review__author-work">Manager</p>
                         </div>
                     </div>
                 </div>
-            </section>
-
-            <!-- Reviews -->
-
-            <section class="reviews">
-                <div class="container">
-                    <div class="section-head">
-                        <div class="section-head__title">
-                            <h2 class="head-title" id="nav-reviews">what our customers are saying</h2>
-                        </div>
-                        <div class="section-head__subtitle">
-                            <p class="head-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </div>
+                <div class="review__item col-4">
+                    <div>
+                        <p class="review__item-descr">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Doloribus accusamus expedita repellat similique odio aspernatur
+                            ex, architecto eaque quo suscipit.
+                        </p>
                     </div>
-                    <div class="reviews__row row">
-                        <div class="review__item col-4">
-                            <div>
-                                <p class="review__item-descr">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                    Doloribus accusamus expedita repellat similique odio aspernatur
-                                    ex, architecto eaque quo suscipit.
-                                </p>
-                            </div>
 
-                            <div class="review__author">
-                                <img class="review__author-photo" src="./assets/images/reviews/author-1.png"
-                                    alt="Author-photo" />
-                                <div class="review__author-desc">
-                                    <p class="review__author-name">Davis Rhiel Madsen</p>
-                                    <p class="review__author-work">Manager</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="review__item col-4">
-                            <div>
-                                <p class="review__item-descr">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                    Doloribus accusamus expedita repellat similique odio aspernatur
-                                    ex, architecto eaque quo suscipit.
-                                </p>
-                            </div>
-
-                            <div class="review__author">
-                                <img class="review__author-photo" src="./assets/images/reviews/author-2.png"
-                                    alt="Author-photo" />
-                                <div class="review__author-desc">
-                                    <p class="review__author-name">Jaydon Rosser</p>
-                                    <p class="review__author-work">Manager</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="review__item col-4">
-                            <div>
-                                <p class="review__item-descr">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                    Doloribus accusamus expedita repellat similique odio aspernatur
-                                    ex, architecto eaque quo suscipit.
-                                </p>
-                            </div>
-
-                            <div class="review__author">
-                                <img class="review__author-photo" src="./assets/images/reviews/author-3.png"
-                                    alt="Author-photo" />
-                                <div class="review__author-desc">
-                                    <p class="review__author-name">Cooper Dorwart</p>
-                                    <p class="review__author-work">Manager</p>
-                                </div>
-                            </div>
+                    <div class="review__author">
+                        <img class="review__author-photo" src="./assets/images/reviews/author-3.png"
+                            alt="Author-photo" />
+                        <div class="review__author-desc">
+                            <p class="review__author-name">Cooper Dorwart</p>
+                            <p class="review__author-work">Manager</p>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
+        </div>
+    </section>
 
-            <!-- Design -->
+    <!-- Design -->
 
-            <section class="design">
-                <div class="container">
-                    <div class="section-head section-head light">
-                        <div class="section-head__title section-head__title_light">
-                            <h2 class="head-title">Stylish Axure Design</h2>
-                        </div>
-                        <div class="section-head__subtitle section-head__subtitle_light">
-                            <p class="head-subtitle">Use the sections you need, remove the ones you don't.
-                                Create gorgeous prototypes faster than ever!</p>
-                        </div>
-                    </div>
-
-                    <div class="design__btn">
-                        <a class="design__btn promo__btn prime-btn" href="#" class="link-download"
-                            alt="Download">Download</a>
-                    </div>
+    <section class="design">
+        <div class="container">
+            <div class="section-head section-head light">
+                <div class="section-head__title section-head__title_light">
+                    <h2 class="head-title">Stylish Axure Design</h2>
                 </div>
-            </section>
-
-            <!-- Contacts -->
-
-            <section class="contacts">
-                <div class="container">
-                    <div class="section-head">
-                        <div class="section-head__title">
-                            <h2 class="head-title" id="nav-contact">Сontact us</h2>
-                        </div>
-                        <div class="section-head__subtitle">
-                            <p class="head-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </div>
-                    </div>
-
-                    <form class="contact-form" method="post">
-                        <div class="contact-form__row row">
-                            <div class="contact__form-input col-6">
-                                <input class="contact-form__field" type="text" placeholder="Name" name="username">
-                                <input class="contact-form__field" type="text" placeholder="Email" name="usermail">
-                                <input class="contact-form__field" type="password" placeholder="Password"
-                                    name="userpass">
-                            </div>
-                            <div class="contact__form-input col-6">
-                                <textarea class="textarea contact-form__field" placeholder="Message"
-                                    name="usertext"></textarea>
-                            </div>
-                            <button class="contacts__btn promo__btn prime-btn">Send Message</button>
-                    </form>
+                <div class="section-head__subtitle section-head__subtitle_light">
+                    <p class="head-subtitle">Use the sections you need, remove the ones you don't.
+                        Create gorgeous prototypes faster than ever!</p>
                 </div>
+            </div>
+
+            <div class="design__btn">
+                <a class="design__btn promo__btn prime-btn" href="#" class="link-download" alt="Download">Download</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacts -->
+
+    <section class="contacts">
+        <div class="container">
+            <div class="section-head">
+                <div class="section-head__title">
+                    <h2 class="head-title" id="nav-contact">Сontact us</h2>
+                </div>
+                <div class="section-head__subtitle">
+                    <p class="head-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+
+            <form class="contact-form">
+                <div class="contact-form__row row">
+                    <div class="contact__form-input col-6">
+                        <input class="contact-form__field" type="text" placeholder="Name" name="username">
+                        <input class="contact-form__field" type="text" placeholder="Email" name="usermail">
+                        <input class="contact-form__field" type="password" placeholder="Password" name="userpass">
+                    </div>
+                    <div class="contact__form-input col-6">
+                        <textarea class="textarea contact-form__field" placeholder="Message" name="usertext"></textarea>
+                    </div>
+                    <button class="contacts__btn promo__btn prime-btn">Send Message</button>
+            </form>
+        </div>
         </div>
     </section>
 
